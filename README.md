@@ -14,22 +14,6 @@ This project is a Python-based GUI application that teaches and trains users to 
 - Pop-up guide explaining the Hi-Lo counting system.
 - Restart button for replaying the session without restarting the program.
 
-## Project Structure
-
-.
-├── main.py # Main GUI application
-├── cards/ # Folder containing card images (52 .png files)
-│ ├── 2_Hearts.png
-│ ├── 10_Spades.png
-│ ├── Ace_Diamonds.png
-│ └── ...etc
-├── test_card_counting.py # Unit tests for Deck and CardCounter logic
-├── README.md # Project documentation
-
-markdown
-Copy
-Edit
-
 ## Requirements
 
 - Python 3.8 or higher
@@ -40,27 +24,22 @@ To install required packages:
 ```bash
 pip install pillow
 How to Run the Application
+
+
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 Ensure the cards/ folder is in the same directory as main.py and contains all 52 properly named card image files.
 
+
 Run the GUI:
 
-bash
-Copy
-Edit
 python main.py
+
 Running the Tests
 To verify that the deck and counting logic are functioning correctly:
 
-bash
-Copy
-Edit
 python test_card_counting.py
 Hi-Lo System Summary
 The Hi-Lo system assigns point values to cards to keep a running count:
