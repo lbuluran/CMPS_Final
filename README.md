@@ -45,8 +45,8 @@ Hi-Lo System Summary
 The Hi-Lo system assigns point values to cards to keep a running count:
 
 Card Value	Count
-2 to 6	+1
-7 to 9	0
+2 to 6	  +1
+7 to 9	   0
 10 to Ace	-1
 
 As each card is revealed, its value is added to the running count. A higher count indicates a deck favorable to the player.
