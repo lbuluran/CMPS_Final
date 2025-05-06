@@ -14,11 +14,14 @@ This project is a Python-based GUI application that teaches and trains users to 
 - Pop-up guide explaining the Hi-Lo counting system.
 - Restart button for replaying the session without restarting the program.
 
+Introduction to Hi-Lo System used for Card Counting Feature: https://wizardofodds.com/games/blackjack/card-counting/high-low/
+
 ## Requirements
 
 - Python 3.8 or higher
 - `tkinter` (usually included with Python installations)
 - `Pillow` for image processing
+- Unzip the Cards ZIP file in the repository
 
 To install required packages:
 ```bash
